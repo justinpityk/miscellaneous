@@ -7,6 +7,9 @@ export PS1="\u@\h \[\033[32m\]\w - \[\033[33m\]\$(parse_git_branch)\[\033[00m\] 
 alias ll="ls -l"
 alias la="ls -la"
 alias .l="cd .. && ll"
+function cl() {
+    cd "$1" && ll;
+}
 
 alias gl="git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
 alias gcm="git checkout master"
