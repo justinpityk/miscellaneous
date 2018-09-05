@@ -6,4 +6,4 @@ npm install --save-dev webpack-cli
 npm init
 mkdir src
 mkdir src/client
-touch src/server.js src/client/index.js src/client/app.js src/client/index.html
+touch src/server.js src/client/index.js src/client/app.js src/client/index.html webpack.config.js
