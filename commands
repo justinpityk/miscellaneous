@@ -1,6 +1,6 @@
 # package installs
 npm install webpack webpack-cli --save-dev
-npm install -D babel-loader @babel/core @babel/preset-env webpack
+npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react webpack
 npm install express # todo: should this be --save-dev?
 npm install react react-dom
 npm install mongodb # todo: should this be --save-dev?
