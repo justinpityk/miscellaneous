@@ -1,6 +1,5 @@
 # webpack
-npm install --save-dev webpack
-npm install --save-dev webpack-cli
+npm install webpack webpack-cli --save-dev
 
 # project initialization
 npm init -y
