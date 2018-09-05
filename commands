@@ -1,11 +1,10 @@
-# webpack
+# package installs
 npm install webpack webpack-cli --save-dev
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+npm install --save lodash
 
 # project initialization
 npm init -y
 mkdir src
 mkdir src/client
 touch src/server.js src/client/index.js src/client/app.js src/client/index.html webpack.config.js
-
-# others
-npm install --save lodash
