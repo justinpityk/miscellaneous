@@ -3,7 +3,7 @@ npm install --save-dev webpack
 npm install --save-dev webpack-cli
 
 # project initialization
-npm init
+npm init -y
 mkdir src
 mkdir src/client
 touch src/server.js src/client/index.js src/client/app.js src/client/index.html webpack.config.js
