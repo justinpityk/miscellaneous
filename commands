@@ -7,7 +7,7 @@ touch webpack.config.js server.js src/index.js src/client/app.js dist/index.html
 
 # package installs
 npm install -D webpack webpack-cli
-npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react
+npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react @babel/plugin-syntax-dynamic-import
 npm install -D css-loader style-loader
 npm install express # todo: should this be --save-dev?
 npm install react react-dom react-router-dom
