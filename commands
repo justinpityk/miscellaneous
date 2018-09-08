@@ -12,6 +12,7 @@ npm install -D css-loader style-loader
 npm install express
 npm install react react-dom react-router-dom react-loadable
 npm install -D jest
+npm install node-fetch
 npm install mongodb
 npm install lodash
 
