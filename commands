@@ -12,6 +12,6 @@ npm install -D css-loader style-loader
 npm install express
 npm install react react-dom react-router-dom
 yarn add react-loadable
-npm install mongodb --save-dev
+npm install mongodb
 npm install lodash
 
