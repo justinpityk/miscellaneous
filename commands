@@ -10,8 +10,7 @@ npm install -D webpack webpack-cli
 npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react @babel/plugin-syntax-dynamic-import
 npm install -D css-loader style-loader
 npm install express
-npm install react react-dom react-router-dom
-yarn add react-loadable
+npm install react react-dom react-router-dom react-loadable
 npm install mongodb
 npm install lodash
 
